@@ -1,0 +1,141 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STALIN S | Portfolio</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+}
+
+header{
+  background:#0077cc;
+  color:white;
+  text-align:center;
+  padding:50px 20px;
+}
+
+nav{
+  background:#333;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:15px 20px;
+  display:inline-block;
+}
+
+nav a:hover{
+  background:#0077cc;
+}
+
+section{
+  padding:40px 20px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.project{
+  border:1px solid #ddd;
+  padding:15px;
+  margin:10px 0;
+  border-radius:8px;
+}
+
+footer{
+  background:#333;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>STALIN S</h1>
+<p>Electrical & Electronics Engineering Student</p>
+<p>Arduino | ESP32 | Raspberry Pi | AI & Robotics</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am an Electrical and Electronics Engineering student passionate about
+IoT, Embedded Systems, Robotics, Artificial Intelligence, Arduino,
+ESP32, and Raspberry Pi projects.
+</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project">
+<h3>AI-Based Predictive Maintenance System</h3>
+<p>ESP32 + MQTT + Machine Learning for equipment monitoring.</p>
+</div>
+
+<div class="project">
+<h3>RFID Attendance System</h3>
+<p>ESP8266-based attendance system with Google Sheets integration.</p>
+</div>
+
+<div class="project">
+<h3>Voice Assistant using Raspberry Pi</h3>
+<p>Speech recognition and AI-powered voice assistant.</p>
+</div>
+
+<div class="project">
+<h3>Biped Robot</h3>
+<p>17-servo humanoid robot with smart control system.</p>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>Arduino Programming</li>
+<li>ESP32 & ESP8266</li>
+<li>Raspberry Pi</li>
+<li>Python Programming</li>
+<li>Machine Learning</li>
+<li>IoT & Cloud Integration</li>
+<li>Embedded Systems</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: yourmail@example.com</p>
+<p>GitHub: github.com/yourusername</p>
+<p>LinkedIn: linkedin.com/in/yourprofile</p>
+</section>
+
+<footer>
+<p>&copy; 2026 STALIN S | Portfolio Website</p>
+</footer>
+
+</body>
+</html>
+```
